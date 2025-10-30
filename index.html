@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Ícone do site (favicon) -->
+    <link rel="shortcut icon" href="imagens-iconics/icone-whatsapp.jpg" type="image/x-icon">
+
+    <!-- Fonte do Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <title>Hamburgueria Mega Dorado</title>
+</head>
+<body>
+    <header class="container">
+                <span  class="material-symbols-outlined" id="menu">
+    menu
+    </span>
+    <nav class="flex-container" id="nav">
+                <ul>
+                    <li><a href="">cadarpio</a></li>
+                    <li><a href="">localização</a></li>
+                    <li><a href="">rede social</a></li>
+                </ul>
+        </nav>
+        <h1>Hamburgueria Mega Dorado</h1>
+
+        <div class="img" id="imag">
+            <img id="eslogo" src="imagens e iconics/imagens-iconicsicone-whatsapp.jpg" width="180px" alt="esloga"> 
+        </div>
+
+     </header>
+
+     <script>
+  const btnMenu = document.getElementById('menu');
+  const nav = document.getElementById('nav');
+
+  btnMenu.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+      
+    
+
+    
+</body>
+</html>
